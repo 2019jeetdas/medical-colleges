@@ -1,0 +1,31 @@
+
+# -*- coding: utf-8 -*-
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import random
+import pandas
+
+
+df = pd.read_csv("C:/Users/Jeet Das/Desktop/medical-college.csv",encoding="utf-8")
+
+print("\n----------------------- output data :---------------------\n")
+print("Project - 17 : Numbers of Medical Colleges and MBBS Seats in India (using Python)");
+print("\n------------------------------------------------------------\n")
+
+
+# Question – A : get row and column numbers 
+
+print('---------------------------------------------')
+print("Dimension of the data frame = ",df.shape)
+print('---------------------------------------------')
+
+----------------------- output data :---------------------
+
+Project - 17 : Numbers of Medical Colleges and MBBS Seats in India (using Python)
+
+------------------------------------------------------------
+
+---------------------------------------------
+Dimension of the data frame =  (31, 7)
+---------------------------------------------
