@@ -1,0 +1,46 @@
+
+# Question - C : print available states/UT and State and Outside the ambit of MCI 
+
+df0 = df['State and Outside the ambit of MCI']
+
+print('---------------------------------------------')
+print('Available data for following State and UT / State and Outside the ambit of MCI : ')
+print('---------------------------------------------')
+print(df0)
+print('---------------------------------------------')
+---------------------------------------------
+Available data for following State and UT / State and Outside the ambit of MCI : 
+---------------------------------------------
+0                       Andhra Pradesh
+1                                Assam
+2                                Bihar
+3                           Chandigarh
+4                         Chhattisgarh
+5                                Delhi
+6                                  Goa
+7                              Gujarat
+8                              Haryana
+9                     Himachal Pradesh
+10                   Jammu and Kashmir
+11                           Jharkhand
+12                           Karnataka
+13                              Kerala
+14                      Madhya Pradesh
+15                         Maharashtra
+16                             Manipur
+17                           Meghalaya
+18                              Odisha
+19                          Puducherry
+20                              Punjab
+21                           Rajasthan
+22                              Sikkim
+23                          Tamil Nadu
+24                             Tripura
+25                       Uttar Pradesh
+26                         Uttarakhand
+27                         West Bengal
+28     AIIMS(Outside the ambit of MCI)
+29    JIPMER(Outside the ambit of MCI)
+30                               Total
+Name: State and Outside the ambit of MCI, dtype: object
+---------------------------------------------
