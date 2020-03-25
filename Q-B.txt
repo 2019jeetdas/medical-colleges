@@ -1,0 +1,24 @@
+
+# Question – B : print column names :
+
+print('------------------------\n Column names as follows :')
+print('------------------------\n')
+count = 0
+for col in df.columns: 
+        print(count,"-->",col)
+        count = count+1
+print("\n-----------------------------\n")
+------------------------
+ Column names as follows :
+------------------------
+
+0 --> State and Outside the ambit of MCI
+1 --> No of Government Colleges-(status as on 23.8.2013)
+2 --> MBBS seats in Government Colleges-(status as on 23.8.2013)
+3 --> No of Private Colleges-(status as on 23.8.2013)
+4 --> MBBS seats in Private Colleges-(status as on 23.8.2013)
+5 --> Total no of colleges-(status as on 23.8.2013)
+6 --> Total MBBS seats in Colleges-(status as on 23.8.2013)
+
+-----------------------------
+
