@@ -1,0 +1,32 @@
+# Question - D : Medical colleges in india
+
+df1 = df['No of Government Colleges-(status as on 23.8.2013)']
+df2 = df['No of Private Colleges-(status as on 23.8.2013)']
+df3 = df['Total no of colleges-(status as on 23.8.2013)']
+
+plt.title('Question - D : Medical colleges in india')
+plt.xlabel("State sl. no. --- >")
+plt.ylabel("Numbers --- >")
+    
+plt.plot(df1,
+            marker=4,
+            markersize=10,
+            linestyle='dashed',
+            label="[1] No of Government Colleges-(status as on 23.8.2013)")
+
+plt.plot(df2,
+            marker=5,
+            markersize=10,
+            linestyle='dashed',
+            label="[2] No of Private Colleges-(status as on 23.8.2013)")
+
+plt.plot(df3,
+            marker=6,
+            markersize=10,
+            linestyle='dashed',
+            label="[3] Total no of colleges-(status as on 23.8.2013)")
+            
+          
+plt.legend()
+plt.show()
+
